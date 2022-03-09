@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #cfcfcf;
+}
+
+.header {
+    height: 100px;
+    background: rgb(69, 164, 241);
+    padding: 0 30px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 100px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    line-height: 100px;
+}
+
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: rgb(43, 52, 71);
+    font-weight: bold;
+}
+
+.buttons{
+    float: right;
+    margin-top: 30px;
+}
+
+ul button {
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+
+button:hover {
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+}
+
+.book{
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+.book img{
+    width: 280px; 
+    height: 400px; 
+    border: 4px solid black;
+    margin-left: 100px;
+    float: left;
+}
+.bookDetails{
+    width: 500px;
+    margin-top: 50px;;
+    margin-left: 80px;
+    float: left;
+    font-size: 18px;
+}
+.bookDetails ul{
+    list-style-type: none;
+}
+.bookDetails ul li h4{
+    float: left;
+    color: rgb(44, 141, 221);
+}
+.bookDetails button{
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    margin-left: 80px;
+
+}
+.bookDetails button:hover{
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+}
+
+.autor{
+    margin-left: 200px;
+    float: left;
+    margin-top: 50px;
+    width: 960px;
+}
+
+.autor hr{
+    width: 960px;
+}
+.autor h5{
+    color:rgb(44, 141, 221);
+}
+
+.extraBook{
+   
+    float: left;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 80px;
+}
+.extraBook img{
+    width: 150px;
+    height: 220px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.profil{
+    margin-top: 80px;
+    margin-left: 150px;
+    
+}
+.profil img{
+    width: 280px; 
+    height: 350px; 
+    border: 4px solid black;
+    border-radius:600px;
+    margin-left: 100px;
+    float: left;
+}
+.userDetails{
+    margin-top: 10px;
+    width: 500px;
+    margin-left: 80px;
+    float: left;
+    font-size: 18px;
+}
+.userDetails ul{
+    list-style-type: none;
+}
+.userDetails ul li h4{
+    float: left;
+    color: rgb(44, 141, 221);
+}
+.userDetails button{
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    float: right;
+
+}
+.userDetails button:hover{
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+}
+
+
+.footer{
+    clear: both;
+    background-color: #eeeeeea4;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sidebar button {
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 35px;
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+.sidebar button:hover {
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+}
+.sidebar{
+    clear: both;
+    float: left;
+    width: 270px;
+    height: 600px;
+}
+
+.ceza{
+    background:rgb(69, 164, 241);
+    border: 4px solid #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 60px;
+    margin: 30px 43px;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    color: #fff;
+}
+.sidebar h4{
+    color: rgb(114, 115, 117);
+    font-weight: bolder;
+    margin-left: 57px;
+    margin-top: -20px;
+}
+.vr{
+    border-left: 2px solid rgb(192, 191, 191);
+    height: 350px;
+    float: left;
+}
+.bookHistory{
+    float: left;
+    margin-left: 50px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+.books{
+    width: 240px;
+    float: left;
+    border: 2px solid rgb(69, 164, 241);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.books img{
+    width: 200px;
+    height: 290px;
+    margin: 10px 20px 10px 20px;
+}
+.books ul{
+    list-style-type: none;
+}
+.books ul li h6{
+    float: left;
+    color: rgb(44, 141, 221);
+}
+.books ul li h5{
+    font-size: 16px;
+}
+
+.books ul li button {
+    width: 150px; 
+    height: 40px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 10px;
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+.books ul li button:hover {
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+    font-weight: bold;
+    
+}

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #cfcfcf;
+}
+
+.header {
+    height: 100px;
+    background: rgb(69, 164, 241);
+    padding: 0 30px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 100px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    line-height: 100px;
+}
+
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: rgb(43, 52, 71);
+    font-weight: bold;
+}
+
+.buttons {
+    float: right;
+    margin-top: 30px;
+}
+
+ul button {
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+
+button:hover {
+    border: 1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color: rgb(43, 52, 71);
+}
+
+.sidenav {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.sidenav h5 {
+    margin-top: 40px;
+    color: rgb(69, 164, 241);
+}
+
+.sidenav li {
+    margin-bottom: -10px;
+    border: 1px solid rgb(69, 164, 241);
+}
+
+.sidenav .search {
+    width: 600px;
+    margin-left: 10px;
+}
+
+.sidenav .search input {
+    margin-top: 15px;
+    width: 170px;
+    height: 36px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.sidenav .search button {
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    width: 60px;
+    height: 36px;
+
+}
+
+.sidenav .search button:hover {
+    border: 1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color: rgb(43, 52, 71);
+}
+
+.bookHistory {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.books {
+    width: 250px;
+    float: left;
+    border: 2px solid rgb(69, 164, 241);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.books img {
+    width: 200px;
+    height: 290px;
+    margin: 10px 23px 10px 23px;
+}
+
+.books ul {
+    list-style-type: none;
+}
+
+.books ul li h6 {
+    float: left;
+    color: rgb(44, 141, 221);
+}
+
+.books ul li h5 {
+    font-size: 16px;
+}
+
+.books ul li button {
+    width: 150px; 
+    height: 40px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 10px;
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+.books ul li button:hover {
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+    font-weight: bold;
+    
+}
+
+.sidenav .filtrele{
+    width: 230px; 
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 40px;
+    background: rgb(43, 52, 71);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+
+.sidenav .filtrele:hover {
+    border:1px solid rgb(43, 52, 71);
+    background: rgb(190, 190, 190);
+    color:rgb(43, 52, 71);
+    font-weight: bold;
+    
+}
